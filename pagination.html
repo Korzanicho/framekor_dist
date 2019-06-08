@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paginacja</title>
+    <link rel="stylesheet" href="css/framekor.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed primary">
+                <div class="container">
+                    <a href="index.html" class="navbar__logo">FrameKor</a>
+                    <a href="#" class="navbar__mobile-menu-button" data-menu-id="#menu-1">Menu</a>
+                    <ul class="navbar__menu" id="menu-1">
+                        <li><a href="typography.html">Typografia</a></li>
+                        <li><a href="table.html">Tabele</a></li>
+                        <li><a href="form.html">Formularze</a></li>
+                        <li><a href="button.html">Przyciski</a></li>
+                        <li><a href="label.html">Etykiety</a></li>
+                        <li><a href="pagination.html">Paginacja</a></li>
+                        <li class="dropdown primary">
+                            <a href="#" class="dropdown-menu-button primary">Więcej</a>
+                            <ul class="dropdown-menu primary">
+                                <li><a href="image.html">Obrazki</a></li>
+                                <li><a href="panel.html">Panele</a></li>
+                                <li><a href="preloader.html">Preloader</a></li>
+                                <li><a href="tooltip.html">Tooltipy</a></li>
+                                <li><a href="alert.html">Alerty</a></li>
+                                <li><a href="tab.html">Zakładki</a></li>
+                                <li><a href="modal.html">Modal - okienka</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <div class="container">
+        <div class="row mb-3">
+            <h1 class="center">Paginacja</h1>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3>nav.pagination>ul>(li>a{$})*6</h3>
+            </div>
+            <div class="col-6">
+                <nav class="pagination" style="margin: 50px auto; width: 330px;">
+                    <ul>
+                        <li><a href=""> &lt; </a></li>
+                        <li><a href="">1</a></li>
+                        <li><a href="">22</a></li>
+                        <li><a href="">333</a></li>
+                        <li><a href="" class="active">4444</a></li>
+                        <li><a href="">5</a></li>
+                        <li><a href=""> &gt; </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/framekor.js"></script>
+</body>
+</html>

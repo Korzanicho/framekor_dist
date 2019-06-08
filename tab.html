@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FrameKor</title>
+    <link rel="stylesheet" href="css/framekor.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar fixed primary">
+				<div class="container">
+					<a href="index.html" class="navbar__logo">FrameKor</a>
+					<a href="#" class="navbar__mobile-menu-button" data-menu-id="#menu-1">Menu</a>
+					<ul class="navbar__menu" id="menu-1">
+						<li><a href="typography.html">Typografia</a></li>
+						<li><a href="table.html">Tabele</a></li>
+						<li><a href="form.html">Formularze</a></li>
+						<li><a href="button.html">Przyciski</a></li>
+						<li><a href="label.html">Etykiety</a></li>
+						<li><a href="pagination.html">Paginacja</a></li>
+						<li class="dropdown primary">
+							<a href="#" class="dropdown-menu-button primary">Więcej</a>
+							<ul class="dropdown-menu primary">
+								<li><a href="image.html">Obrazki</a></li>
+								<li><a href="panel.html">Panele</a></li>
+								<li><a href="preloader.html">Preloader</a></li>
+								<li><a href="tooltip.html">Tooltipy</a></li>
+								<li><a href="alert.html">Alerty</a></li>
+								<li><a href="tab.html">Zakładki</a></li>
+								<li><a href="modal.html">Modal - okienka</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="container">
+			<div class="row">
+				<h1 class="center">Zakładki</h1>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h3>.tab>ul.tab__menu>li>a{Zakładka $}*3</h3><br>
+					<h3>.tab__body>div{Treść zakładki}*3</h3>
+				</div>
+				<div class="col-6">
+					<div class="tab m-4" id="tabs-1">
+						<ul class="tab__menu">
+							<li><a href="">Zakładka 1</a></li>
+							<li><a href="">Zakładka 2</a></li>
+							<li><a href="">Zakładka 3</a></li>
+						</ul>
+						<div class="tab__body">
+							<div>Treść zakładki 1</div>
+							<div>Treść zakładki 2</div>
+							<div>Treść zakładki 3</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<script src="./js/framekor.js"></script>
+</body>
+</html>

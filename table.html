@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FrameKor</title>
+    <link rel="stylesheet" href="css/framekor.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed primary">
+            <div class="container">
+                <a href="index.html" class="navbar__logo">FrameKor</a>
+                <a href="#" class="navbar__mobile-menu-button" data-menu-id="#menu-1">Menu</a>
+                <ul class="navbar__menu" id="menu-1">
+                    <li><a href="typography.html">Typografia</a></li>
+                    <li><a href="table.html">Tabele</a></li>
+                    <li><a href="form.html">Formularze</a></li>
+                    <li><a href="button.html">Przyciski</a></li>
+                    <li><a href="label.html">Etykiety</a></li>
+                    <li><a href="pagination.html">Paginacja</a></li>
+                    <li class="dropdown primary">
+                        <a href="#" class="dropdown-menu-button primary">Więcej</a>
+                        <ul class="dropdown-menu primary">
+                            <li><a href="image.html">Obrazki</a></li>
+                            <li><a href="panel.html">Panele</a></li>
+                            <li><a href="preloader.html">Preloader</a></li>
+                            <li><a href="tooltip.html">Tooltipy</a></li>
+                            <li><a href="alert.html">Alerty</a></li>
+                            <li><a href="tab.html">Zakładki</a></li>
+                            <li><a href="modal.html">Modal - okienka</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <header class="row">
+            <h1 class="center">Tabele</h1>
+        </header>
+        <div class="row">
+            <div class="col-6">
+                <h3>&lt;table&gt;</h3>
+            </div>
+            <div class="col-6">
+                <table class="center">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nagłówek 1
+                            </th>
+                            <th>
+                                Nagłówek 2
+                            </th>
+                            <th>
+                                Nagłówek 3
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">
+                                Treść 1
+                            </td>
+                            <td>
+                                Treść 2
+                            </td>
+                            <td>
+                                Treść 3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Treść 4
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3>&lt;table class="table"&gt;</h3>
+            </div>
+            <div class="col-6">
+                <table class="table center">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nagłówek 1
+                            </th>
+                            <th>
+                                Nagłówek 2
+                            </th>
+                            <th>
+                                Nagłówek 3
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">
+                                Treść 1
+                            </td>
+                            <td>
+                                Treść 2
+                            </td>
+                            <td>
+                                Treść 3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Treść 4
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3>&lt;table class="table-bordered"&gt;</h3>
+            </div>
+            <div class="col-6">
+                <table class="table-bordered center">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nagłówek 1
+                            </th>
+                            <th>
+                                Nagłówek 2
+                            </th>
+                            <th>
+                                Nagłówek 3
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Treść 1
+                            </td>
+                            <td>
+                                Treść 2
+                            </td>
+                            <td>
+                                Treść 3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Treść 1
+                            </td>
+                            <td>
+                                Treść 2
+                            </td>
+                            <td>
+                                Treść 3
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3>&lt;table class="table-striped"&gt;</h3>
+            </div>
+            <div class="col-6">
+                <table class="table-striped center">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nagłówek 1
+                            </th>
+                            <th>
+                                Nagłówek 2
+                            </th>
+                            <th>
+                                Nagłówek 3
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Treść 1
+                            </td>
+                            <td>
+                                Treść 2
+                            </td>
+                            <td>
+                                Treść 3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Treść 1
+                            </td>
+                            <td>
+                                Treść 2
+                            </td>
+                            <td>
+                                Treść 3
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./js/framekor.js"></script>
+</body>
+
+</html>
